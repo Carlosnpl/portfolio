@@ -1,0 +1,104 @@
+/* Reset de estilos para mejorar la consistencia entre navegadores */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo general de la página */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0082e6;
+    line-height: 1.6;
+  }
+  
+/* Contenedor principal con cuadrícula de 3 columnas */
+.landing-container {
+  display: grid;
+/*place-items: center; */
+  grid-template-columns: repeat(3, 1fr);  /* Crea tres columnas de igual tamaño */
+  gap: 20px;  /* Ajusta el espacio entre las columnas */
+  justify-content: space-around;  /* Ajusta el espacio entre las filas */
+}
+/* Estilo de cada columna */
+.column {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  text-align: center;
+  color: #0082e6;
+}
+
+  /* Contenedor principal */
+  .portfolio-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Encabezado */
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  /* Resumen */
+  .summary {
+    margin-bottom: 20px;
+  }
+  
+  /* Habilidades */
+  .skills {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Educación */
+  .education {
+    margin-bottom: 20px;
+  }
+  
+  /* Módulos realizados */
+  .module {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo de la lista de módulos */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo adicional según sea necesario */
+  
